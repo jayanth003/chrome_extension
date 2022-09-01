@@ -1,0 +1,8 @@
+.quote-wrapper {
+  margin: 5px 10px 0px 10px;
+  /* font-family: "Festive", cursive; */
+  /* font-family: "Dancing Script", cursive; */
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  color: #0c0303;
+  font-size: 20px;
+}

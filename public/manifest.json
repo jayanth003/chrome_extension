@@ -1,0 +1,25 @@
+{
+  "short_name": "Jay",
+  "name": "Card91 Launcher",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "These are CARD91 Links.",
+  "permissions": ["activeTab"],
+  "author": "JAYANTH",
+  "icons": {
+    "16": "launchpad16.png",
+    "32": "launchpad32.png",
+    "48": "launchpad48.png",
+    "128": "launchpad128.png"
+  },
+  "browser_action": {
+    "default_popup": "./index.html",
+    "default_icon": {
+      "16": "launchpad16.png",
+      "32": "launchpad32.png",
+      "48": "launchpad48.png",
+      "128": "launchpad128.png"
+    }
+  },
+  "content_security_policy": "script-src 'self' 'sha256-fdAfMKZtCTRPKMRznGwonJHC++vCCrQS7XFnVrzSXAE=' 'sha256-YD8w9VLrdvqI5/tFVmpT+1337ly+e/JvPrkRxYZo/w4='; object-src 'self';"
+}
